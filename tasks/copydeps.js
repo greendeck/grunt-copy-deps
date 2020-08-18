@@ -55,7 +55,7 @@ module.exports = function (grunt) {
       }
 
       // Start a glob path.
-      var glob = 'node_modules/' + dependency + '/**/' + dependencyJs;
+      var glob = 'node_modules/' + dependency + '/**/' + '*';
 
       if( options.js === true ) {
 
